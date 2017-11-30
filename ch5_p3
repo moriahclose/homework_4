@@ -1,0 +1,9 @@
+function averageArray( theArray ) {
+     var sum = 0;
+    
+     for (element in theArray) {
+          sum += theArray[element];
+     }
+     return (sum / theArray.length);
+}
+
