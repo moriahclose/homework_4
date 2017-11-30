@@ -1,0 +1,1 @@
+This script initializes a variable i and increments i by 1 until i = 9. When i = 10, the script outputs "All done".
