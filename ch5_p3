@@ -1,9 +1,19 @@
 function averageArray( theArray ) {
-     var sum = 0;
-    
-     for (element in theArray) {
-          sum += theArray[element];
-     }
-     return (sum / theArray.length);
-}
+    var sum = 0;
+   
+    // check that elements in the array are numbers and that array has values
+    if (theArray.length == 0){
+        return("This is an empty array.");
+    }
 
+    for (element in theArray) {
+        if (isNaN(theArray[element])) {
+            return("This is not an array of numbers.");
+        }
+    }
+
+    for (element in theArray) {
+         sum += theArray[element];
+    }
+    return (sum / theArray.length);
+}
