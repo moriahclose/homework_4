@@ -1,0 +1,1 @@
+If the value of the last object's next property were a reference to the first object in the chain, then the chain would form a loop.
