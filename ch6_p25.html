@@ -1,0 +1,20 @@
+<!-- Used webpage in Safari and Chrome and behavior was similar. Only appearance was difference. -->
+<!doctypehtml>
+<html>
+
+<head>
+    <title>My Awesome Webpage</title>
+</head>
+
+<body style="font-family: arial">
+    <h1>Welcome To My Webpage</h1>
+    <div onclick="alert('Element: ' + this.tagName + ' is bubbling.')">
+        <button onclick="alert('Element: ' + this.tagName + ' is bubbling.')">This button has a picture!
+            <img onclick="alert('Element: ' + this.tagName + ' is bubbling.')" src="https://78.media.tumblr.com/avatar_64f2f1a1057b_128.png"
+            />
+        </button>
+    </div>
+</body>
+
+</html>
+
