@@ -1,2 +1,8 @@
-# homework_4
-Homework 4 completed by Gabriel Say and Moriah Tolliver
+# CMSI 185: Introduction to Programming
+
+## Homework 4 by Moriah Tolliver and Gabriel Say
+
+### Inlcudes Exercises In:
+* Introductory Programming Concepts
+* JavaScript
+* Python
